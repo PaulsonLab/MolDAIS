@@ -6,12 +6,18 @@ A code for efficient molecular property optimization.
 
 
 ## test the code - log P 
--- under development
-
+1. Build environment 
+2. Run main.py
 
 ## test on your data set
--- under development
+1. Add your <data>.csv file with a SMILES and <property> columns
+2. Add src/config/log_p_test_exp/<new_exp_name>.json, e.g., change the "exp_name", "Data_loc", and "y_variable" fields in src/config/log_p_test_exp/log_P_test_exp.json
+3. Change line 56 in main to point to <new_exp_name>.json
+4. Run main.py
 
+
+## test with a smiles list and callable function
+- under development
 
 
 ## Citation
