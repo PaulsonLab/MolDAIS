@@ -1,14 +1,16 @@
-# MolDAIS
+# MolDAIS (under development)
 Molecular Descriptors with Actively Identified Subsets
 
 A code for efficient molecular property optimization. 
 
-## test the code - log P 
 
+
+## test the code - log P 
+-- under development
 
 
 ## test on your data set
-
+-- under development
 
 
 
