@@ -32,3 +32,6 @@ Sorourifar, Farshud, Thomas Banker, and Joel A. Paulson. "Accelerating Black-Box
       archivePrefix={arXiv},
       primaryClass={q-bio.BM}
 }
+
+## Contact: 
+sorourifar.1@osu.edu
