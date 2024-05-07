@@ -1,0 +1,42 @@
+{
+    "exp_name": "cep",
+    "data_loc": "../prop_data/MORDRED_SMILES_cep_PCE.csv",
+    "save_dir": "../results",
+    "init_ind_loc": null,
+    "seed": 0,
+    "common":
+        {
+        "y_variable": "activity",
+        "max_min": "max",
+        "model_type": "GP",
+        "init_budget": 10,
+        "total_budget": 100,
+        "load_init_indices": false,
+        "drop_props": []
+        },
+    "bo":
+        {
+        "acq_fun": "random",
+        "acq_fun_params":
+            {
+            "beta" : 0.1,
+            "decay" : 0.9,
+            "eta" : 0,
+            "xi" : 0.1
+            },
+        "saas_fit_params":
+            {
+            "WARMUP_STEPS" : 32,
+            "NUM_SAMPLES" : 16,
+            "THINNING" : 16
+            }
+        },
+    "dim_red":
+        {
+        "method" : null,
+        "n_dims" : 6,
+        "corr_thresh" : 0.95,
+        "thin_freq" : null
+        }
+}
+
