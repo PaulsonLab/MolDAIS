@@ -1,11 +1,11 @@
 # MolDAIS (under development)
 Molecular Descriptors with Actively Identified Subsets
 
-A code for efficient molecular property optimization. 
+A code for efficient molecular property optimization. This repository is under development. A cleaner version with tutorials and extended functionality (e.g., constraints, multi-objective, and human-in-the-loop) will be made available upon journal publication. 
 
 
 
-## Test the code - log P 
+## Test the code 
 1. Build environment 
 2. Run main.py
 
@@ -16,7 +16,7 @@ A code for efficient molecular property optimization.
 4. Run main.py
 
 
-## Test with a smiles list and callable function
+## Test with a smiles list and callable function (or Human in the loop)
 - under development
 
 
