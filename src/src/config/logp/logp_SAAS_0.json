@@ -1,0 +1,43 @@
+{
+    "exp_name": "logp",
+    "data_loc": "../prop_data/MORDRED_SMILES_logP_logP.csv",
+    "save_dir": "../results",
+    "init_ind_loc": null,
+    "seed": 0,
+    "common":
+        {
+        "y_variable": "logP",
+        "max_min": "max",
+        "model_type": "SAASGP",
+        "init_budget": 10,
+        "total_budget": 100,
+        "load_init_indices": false,
+        "drop_props": []
+        },
+    "bo":
+        {
+        "acq_fun": "EI",
+        "acq_fun_params":
+            {
+            "beta" : 0.1,
+            "decay" : 0.9,
+            "eta" : 0,
+            "xi" : 0.1,
+			"q" : 1
+            },
+        "saas_fit_params":
+            {
+            "WARMUP_STEPS" : 256,
+            "NUM_SAMPLES" : 128,
+            "THINNING" : 16
+            }
+        },
+    "dim_red":
+        {
+        "method" : null,
+        "n_dims" : 6,
+        "corr_thresh" : 0.95,
+        "thin_freq" : null
+        }
+}
+
