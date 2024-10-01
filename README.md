@@ -5,10 +5,8 @@ A code for efficient molecular property optimization. This repository is under d
 
 
 
-## Test the code 
-1. Build environment 
-2. Run main.py
-
+## Install
+pip install MolDAIS
 ## Test on your data set
 1. Add your <data>.csv file with a SMILES and <property> columns
 2. Add src/config/log_p_test_exp/<new_exp_name>.json, e.g., change the "exp_name", "Data_loc", and "y_variable" fields in src/config/log_p_test_exp/log_P_test_exp.json
