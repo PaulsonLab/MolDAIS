@@ -1,0 +1,21 @@
+[project]
+name = "MolDAIS"
+version = "0.8"
+authors = [	
+	{ name = "Farshud Sorourifar", email = "farshudsor@gmail.com"},
+	]
+description = "Molecular Property Optimization with Molecular Descriptors over Actively Identified Subspaces "
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+				"rdkit","botorch","Mordred",
+				"minepy", "matplotlib",
+]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/PaulsonLab/MolDAIS"

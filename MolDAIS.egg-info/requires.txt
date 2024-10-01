@@ -1,0 +1,5 @@
+rdkit
+botorch
+Mordred
+minepy
+matplotlib
