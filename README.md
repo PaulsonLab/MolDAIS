@@ -17,6 +17,8 @@ pip install MolDAIS
 
 ## Quick Start Example
 
+More examples are presented in the jupyter notebook
+
 ```python
 import torch
 from MolDAIS.moldais import MolDAIS
@@ -71,6 +73,9 @@ mol_dais.configuration.plot_convergence()
 - **Flexible Acquisition Functions**: Multiple strategies for exploring chemical space
 - **Support for Constraints**: Handle constrained optimization problems
 - **Multi-objective Optimization**: Optimize multiple molecular properties simultaneously
+
+## Planned Features
+- **Custom Callable Functions**: Upcoming support for custom python wrapped functions 
 - **Human-in-the-loop**: Upcoming support for interactive optimization
 
 ## Usage Options
