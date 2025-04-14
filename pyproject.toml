@@ -1,21 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "MolDAIS"
-version = "0.8.5"
-authors = [	
-	{ name = "Farshud Sorourifar", email = "farshudsor@gmail.com"},
-	]
-description = "Molecular Property Optimization with Molecular Descriptors over Actively Identified Subspaces "
+name = "moldais"
+version = "1.0.0"
+authors = [
+    { name = "Farshud Sorourifar", email = "farshudsor@gmail.com" },
+]
+description = "Molecular Property Optimization with Molecular Descriptors over Actively Identified Subspaces"
 readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.8"
 dependencies = [
-				"rdkit","botorch","Mordred",
-				"minepy", "matplotlib",
+    "rdkit",
+    "botorch",
+    "Mordred",
+    "minepy",
+    "matplotlib",
 ]
 classifiers = [
-	"Programming Language :: Python :: 3",
-	"License :: OSI Approved :: MIT License",
-	"Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
 ]
+
+[tool.setuptools]
+packages = ["moldais"]
 
 [project.urls]
 Homepage = "https://github.com/PaulsonLab/MolDAIS"
+
