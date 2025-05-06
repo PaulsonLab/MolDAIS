@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+moldais/__init__.py
+moldais.egg-info/PKG-INFO
+moldais.egg-info/SOURCES.txt
+moldais.egg-info/dependency_links.txt
+moldais.egg-info/requires.txt
+moldais.egg-info/top_level.txt
