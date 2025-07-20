@@ -10,3 +10,6 @@ Redox and Solvation energy datasets (including smiles strings, target properties
 https://figshare.com/articles/dataset/Quinone_based_SMILES_and_molecular_descriptors_values_for_solvation_energy_and_redox_potential/29602217
 
 
+LogP optimization results were too large to for this repo. They can be found at 
+
+https://figshare.com/articles/dataset/LogP_convergence_results/25506292
