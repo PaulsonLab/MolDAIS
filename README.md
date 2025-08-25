@@ -4,6 +4,8 @@ MolDAIS is a powerful tool for efficient molecular property optimization through
 
 [![PyPI version](https://img.shields.io/pypi/v/MolDAIS.svg)](https://pypi.org/project/MolDAIS/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16944671.svg)](https://doi.org/10.5281/zenodo.16944671)
+
 
 ## Overview
 
